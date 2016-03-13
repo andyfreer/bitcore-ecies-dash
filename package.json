@@ -1,7 +1,7 @@
 {
-  "name": "bitcore-ecies",
+  "name": "bitcore-ecies-dash",
   "version": "1.0.1",
-  "description": "ECIES implemented for Bitcore.",
+  "description": "ECIES implemented for Bitcore-Dash.",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore-ecies.git"
+    "url": "https://github.com/andyfreer/bitcore-ecies-dash.git"
   },
   "keywords": [
     "bitcoin",
@@ -40,6 +40,6 @@
   },
   "dependencies": {
     "aes": "^0.1.0",
-    "bitcore-lib": "^0.13.7"
+    "bitcore-lib-dash": "https://github.com/andyfreer/bitcore-lib-dash.git"
   }
 }
